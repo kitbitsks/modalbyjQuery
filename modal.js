@@ -1,0 +1,9 @@
+$(document).ready(()=>{
+	$("#md").click(()=>{
+		$(".modal").fadeIn("slow");
+		$(".modal-content").slideDown("fast");
+	})
+	$("#clos").click(()=>{
+		$(".modal").fadeOut()
+	})
+})
